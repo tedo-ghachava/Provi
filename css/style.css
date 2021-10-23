@@ -1,17 +1,23 @@
-header{
-    width: 100%;
-    height: 100vh;
-    background: url(../images/header.png) center/cover no-repeat;;
+body{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(242,122,36,1) 59%, rgba(216,98,214,1) 100%);
 }
 .container{
     width: 100%;
     max-width: 1080px;
     margin: 0px auto;
 }
-
+.header-line{
+    width: 100%;
+    height: 45px;
+    background-color: #3b006b;
+}
 .header-wrapper{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1080px;
 }
 
 .logo{
@@ -19,11 +25,16 @@ header{
     height: 145px;
 }
 
+.text-box{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+}
+
 .navigation {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-
+    align-items: center
 }
 .nav-ul{
     margin: 0 0px 0 200px;
@@ -35,7 +46,7 @@ header{
 
 .nav-li a {
     font-size: 18px; 
-    color: #f87f26;
+    color: white;
     transition: all 0.4s ease-in-out;
     text-decoration: underline solid transparent;
     text-decoration-thickness: 3px;
@@ -45,44 +56,28 @@ header{
     text-decoration-color: white;
 }
 
-.dots-wrapper{
+.under-text{
+    width: 840px;
+    height: 30px;
+    background: rgb(59,0,107);
+    background: linear-gradient(90deg, rgba(59,0,107,0) 0%, rgba(59,0,107,1) 50%, rgba(216,98,214,0) 100%);
+}
+
+.light-purple{
     width: 100%;
-    max-width: 1080px;
-    display: flex;
-    align-items: flex-start;
+    height: 145px;
+    background-color: #a131fe;
 }
 
-.purple-line{
+.dotted-section{
     width: 100%;
-    height: 100px;
-    background-color: #8c00ff;
-}
 
-.second-section{
-    display: flex;
-    flex-direction: column;
-    margin-top: 150px;
-}
-.orange-line{
-    width: 60.5%;
-    height: 100px;
-    background-color: #f17924;
-}
-.middle-dots{
-    align-self: center;
-}
-
-.second-purple{
-    width: 60.5%;
-    height: 100px;
-    background-color: #8c00ff; 
-    align-self: flex-end;
 }
 
 footer{
     width: 100%;
     height: 200px;
     background-color: #43126b;
-    margin-top: 120px;
+    margin-top: 105px;
 }
 
