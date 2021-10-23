@@ -26,34 +26,24 @@ header{
 
 }
 .nav-ul{
-    margin: 0 382px 0 49px;
+    margin: 0 0px 0 200px;
     display: flex;
 }
-.nav-li {
-    
+.nav-li {    
     padding-right: 30px;
-
 }
 
 .nav-li a {
     font-size: 18px; 
-    color: black;
+    color: #f27b24;
     transition: all 0.4s ease-in-out;
     text-decoration: underline solid transparent;
     text-decoration-thickness: 3px;
 }
 
 .nav-li a:hover{
-    text-decoration-color: #E76F51;
+    text-decoration-color: white;
 }
-
-/* .purple{
-    width: 100%;
-    height: 260px;
-    background-color: #8c00ff;  
-    border-radius: 100% 24% 100% 93% / 100% 100% 0% 0% ;
-    z-index: 7;
-} */
 
 .dots-wrapper{
     width: 100%;
