@@ -1,0 +1,80 @@
+header{
+    width: 100%;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(242,122,36,1) 74%, rgba(218,103,214,1) 100%);
+
+}
+.container{
+    width: 100%;
+    max-width: 1080px;
+    margin: 0px auto;
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 246px;
+    height: 145px;
+}
+
+/* .dots{
+    width: 310px;
+    height: 200px;
+    background-image: url("../images/dots.png");
+    z-index: 10;
+    position: absolute;
+    float: right;
+} */
+
+.purple{
+    width: 100%;
+    height: 260px;
+    background-color: #8c00ff;  
+    border-radius: 100% 24% 100% 93% / 100% 100% 0% 0% ;
+    z-index: 7;
+}
+
+.dots-wrapper{
+    width: 100%;
+    max-width: 1080px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.purple-line{
+    width: 100%;
+    height: 100px;
+    background-color: #8c00ff;
+}
+
+.second-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+.orange-line{
+    width: 60.5%;
+    height: 100px;
+    background-color: #f17924;
+}
+.middle-dots{
+    align-self: center;
+}
+
+.second-purple{
+    width: 60.5%;
+    height: 100px;
+    background-color: #8c00ff; 
+    align-self: flex-end;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #43126b;
+    margin-top: 120px;
+}
+
