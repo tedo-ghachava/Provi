@@ -1,8 +1,7 @@
 header{
     width: 100%;
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(242,122,36,1) 74%, rgba(218,103,214,1) 100%);
-
+    height: 100vh;
+    background: url(../images/header.png) center/cover no-repeat;;
 }
 .container{
     width: 100%;
@@ -20,22 +19,41 @@ header{
     height: 145px;
 }
 
-/* .dots{
-    width: 310px;
-    height: 200px;
-    background-image: url("../images/dots.png");
-    z-index: 10;
-    position: absolute;
-    float: right;
-} */
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
-.purple{
+}
+.nav-ul{
+    margin: 0 382px 0 49px;
+    display: flex;
+}
+.nav-li {
+    
+    padding-right: 30px;
+
+}
+
+.nav-li a {
+    font-size: 18px; 
+    color: black;
+    transition: all 0.4s ease-in-out;
+    text-decoration: underline solid transparent;
+    text-decoration-thickness: 3px;
+}
+
+.nav-li a:hover{
+    text-decoration-color: #E76F51;
+}
+
+/* .purple{
     width: 100%;
     height: 260px;
     background-color: #8c00ff;  
     border-radius: 100% 24% 100% 93% / 100% 100% 0% 0% ;
     z-index: 7;
-}
+} */
 
 .dots-wrapper{
     width: 100%;
