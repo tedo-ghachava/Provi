@@ -67,12 +67,12 @@ body{
 }
 
 .dow-ul{
-    margin: 0 0px 0 200px;
+    margin: 0 20px 0 200px;
     display: flex;
     
 }
 .dow-li {    
-    padding-right: 7px;
+    padding-right: 5px;
 }
 
 .dow-li a img{
@@ -83,13 +83,27 @@ body{
 .light-purple{
     width: 100%;
     height: 145px;
+    margin: 20px 0 20px 0;
     background-color: #a131fe;
 }
 
 .dotted-section{
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
+    position: relative;
+}
+
+.dotted-section .dot-img {
+    position: absolute;
+    left: -40px;
+    top: 0px;
+    object-fit: cover;
+    height: 152px;
+}
+
+.food-images {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    gap: 15px;
 }
 
 .food{
