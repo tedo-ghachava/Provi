@@ -30,11 +30,10 @@
     margin-left: 150px;
 }
 .nav-ul{
-    margin: 0 0px 0 200px;
     display: flex;
 }
 .nav-li {    
-    padding-right: 30px;
+    padding-right: 80px;
 }
 
 .nav-li a {
@@ -63,13 +62,12 @@
     display: flex;
     
 }
-.dow-li {    
-    padding-right: 5px;
-}
+
 
 .dow-li a img{
-    width: 25px;
-    height: 25px;
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
 }
 
 .light-purple{
@@ -120,9 +118,9 @@
     height: 100vh;
     background: url(../images/left-background.jpg) center center/cover no-repeat;
     display: flex;
-    align-items: center;
     align-content: space-between;
 }
+
 h2{
     color: #f27b24;
     font-size: 40px;
